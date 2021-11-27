@@ -1,0 +1,17 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  li {
+    margin-right: 10px;
+    a {
+      padding: 0;
+    }
+  }
+
+  .toggle-btn {
+    border: none;
+    background: transparent;
+  }
+}
