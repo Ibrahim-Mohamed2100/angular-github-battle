@@ -21,6 +21,6 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes, { useHash: false }), BrowserModule, SharedModule],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [RouterModule]
+  exports: [RouterModule, SharedModule]
 })
 export class AppModule {}

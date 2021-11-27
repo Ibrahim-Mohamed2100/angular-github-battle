@@ -1,0 +1,12 @@
+.battle-container {
+  .battle-section {
+    h1 {
+      text-align: center;
+      margin: 20px;
+    }
+    .section-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
